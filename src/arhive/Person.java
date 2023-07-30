@@ -1,7 +1,9 @@
+package arhive;
+
 public class Person {
 
     private int id;                         // Индикационный номер
-    private  int id_parent;                 // Номер главного родителя  (если 0 - это основатель древа, если 1 - это родители не известен(пока не реализовано))
+    private int id_parent;                  // Номер главного родителя  (если 0 - это основатель древа, если 1 - это родители не известен(пока не реализовано))
     private int id_consort;                 // Номер супруга  
     private String sex;                     // Пол члена семьи
     private String name;                    // Имя члена семьи
